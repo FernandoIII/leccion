@@ -149,7 +149,12 @@ public class MODELO_VISTA extends javax.swing.JFrame {
             MODELO_CATEGORIA ob1= new MODELO_CATEGORIA(null, Double.parseDouble(edad.getText()));
             l1.setText(nombre.getText());
             l2.setText(edad.getText());
+            //            AQUI NO SE COMO CONEVTIR EL METODO, DEL MODELO_CATEGORIA
+            
             l3.setText(ob1.categoria(ob1.categoria()));
+            
+            
+
     }//GEN-LAST:event_buttonAeroLeft2ActionPerformed
     }
     /**
